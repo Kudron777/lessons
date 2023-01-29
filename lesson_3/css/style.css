@@ -1,0 +1,62 @@
+@import url(reset.css);
+
+* {
+   color: rgb(40, 209, 209);
+}
+
+
+header a {
+   color: rgb(23, 207, 146);
+}
+
+.title.main {
+   color: rgb(151, 50, 219);
+}
+
+#content {
+   color: rgb(224, 54, 24);
+}
+
+a {
+   color: blue;
+}
+
+li > a {
+   color: chartreuse;
+}
+
+.second_content_li * {
+   color: brown;
+}
+
+[class*="__container"] {
+   color: blueviolet;
+}
+
+.article__container .secondtitle {
+   color: rgb(200, 13, 238);
+}
+
+div.article__container {
+   color: brown;
+}
+
+.article__container,
+.important {
+   color: green;
+}
+
+ol li {
+   color: rgb(42, 130, 165);
+}
+.article__container p {
+   color: black;
+}
+
+.first_open_code ~ li {
+   color: rgb(190, 38, 127);
+}
+
+.first_open_code + li {
+   color: rgb(27, 181, 219);
+}
