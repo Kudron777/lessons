@@ -1,0 +1,86 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Poppins:wght@300;700&display=swap');
+
+div.article {
+   width: 816px;
+   margin: 0 auto;
+}
+
+div.article h2 {
+   font-family: Poppins;
+   font-size: 25px;
+   font-weight: 700;
+   line-height: 40px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: #212529;
+}
+
+div.article p {
+   width: 816px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 25px;
+   color: #6C757D;
+}
+
+#first-title {
+   width: 400px;
+   margin-bottom: 32px;
+}
+
+#first-paragraph {
+   margin-bottom: 88px;
+}
+
+.img {
+   width: 1240px;
+   margin: 0 auto 80px;
+   font-size: 0px;
+}
+
+#second-title {
+   width: 605px;
+   margin-bottom: 40px;
+}
+
+#second-paragraph {
+   margin-bottom: 80px;
+}
+
+#first-of-double-img {
+   margin-right:30px;
+}
+
+.end-of-article {
+   background-color: #212529;
+   height: 50px;
+}
+
+.end-of-article p {
+   text-align: center;
+   font-size: 40px;
+}
+
+* {
+   font-size: 20px;
+}
+
+.block {
+   margin: 0 auto;
+	background-color: hsl(271, 19%, 46%);
+   overflow: auto;
+   height: 500px;
+   width: 500px;
+}
+.inline {
+	background-color: #7a956b;
+   overflow: scroll;
+}
+.inline-block {
+	background-color: #794f45;
+   overflow: scroll;
+}
