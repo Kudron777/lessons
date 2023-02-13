@@ -1,0 +1,49 @@
+@import url("reset.css");
+/* 
+main {
+   padding-bottom: 1px;
+} */
+
+body {
+   background-color: #E5E5E5;
+   font-family: 'Poppins', sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 1.79;
+   /* padding-bottom: 10px; */
+}
+
+.big-margin {
+   margin-bottom: 100px;
+}
+
+.small-margin {
+   margin-bottom: 80px;
+}
+
+.main-img img{
+   width: 100%;
+}
+
+[class*="__container"] {
+   max-width: 1270px;
+   margin: 30px auto;
+   padding: 0 15px;
+}
+
+.text-box {
+   max-width: 816px;
+   margin: 30px auto;
+}
+
+.text-box p {
+   margin-bottom: 30px;
+}
+
+.title {
+
+   max-width: 605px;
+}
+
+
