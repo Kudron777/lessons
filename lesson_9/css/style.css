@@ -1,0 +1,186 @@
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:700,900&display=swap);
+
+body {
+   background-image: url("../img/background.jpg");
+}
+
+h2 {
+   text-align: center;
+   font-size: 50px;
+   font-family: "Roboto" serif;
+   font-weight: 700;
+   color: rgb(255, 255, 255);
+   margin-bottom: 50px;
+}
+
+.ikons {
+   padding: 20px 0;
+   text-align: center;
+   max-width: 1000px;
+   margin: 0 auto;
+   border-radius: 20px;
+   box-shadow: 10px 10px 20px black;
+   margin-bottom: 50px;
+   background: rgb(7,11,24);
+   background: linear-gradient(135deg, rgba(7,11,24,1) 0%, rgba(40,19,19,1) 30%, rgba(4,3,0,1) 43%, rgba(12,33,5,1) 53%, rgba(47,7,7,1) 67%, rgba(9,16,38,1) 78%);
+}
+
+.div-for-ikon-email {
+   display: inline-block;
+   height: 138px;
+   width: 138px;
+   background-image: url("../img/ikons/email.svg");
+}
+
+.div-for-ikon-map {
+   height: 130px;
+   width: 130px;
+   display: inline-block;
+   background: url("../img/ikons/map.svg");
+}
+
+
+.content {
+   border-radius: 20px;
+   padding: 50px 0;
+   max-width: 1000px;
+   margin: 0 auto;
+   margin-bottom: 50px;
+   background: rgb(7,11,24);
+   background: linear-gradient(135deg, rgba(7,11,24,1) 0%, rgba(40,19,19,1) 30%, rgba(4,3,0,1) 43%, rgba(12,33,5,1) 53%, rgba(47,7,7,1) 67%, rgba(9,16,38,1) 78%);
+}
+.content-ikons {
+   padding: 20px 0;
+   text-align: center;
+   border-radius: 20px;
+   max-width: 800px;
+   margin: 0 auto 50px;
+   background: rgb(0,0,0);
+   background: linear-gradient(63deg, rgba(0,0,0,1) 0%, rgba(42,12,45,1) 32%, rgba(70,4,38,1) 78%);
+}
+
+.content-img {
+   padding: 20px 0;
+   text-align: center;
+   border-radius: 20px;
+   max-width: 800px;
+   margin: 0 auto 50px;
+   background: rgb(0,0,0);
+   background: linear-gradient(63deg, rgba(0,0,0,1) 0%, rgba(42,12,45,1) 32%, rgba(70,4,38,1) 78%);
+}
+
+img {
+   max-width: 100%;
+}
+
+.advantages {
+   border-radius: 15px;
+}
+
+.projects {
+   font-size: 0;
+   padding-top: 20px;
+}
+
+.projects__item {
+   display: inline-block;
+   width: 30%;
+   margin-bottom: 20px;
+   margin-right: 3%;
+}
+
+.projects__item img {
+   width: 100%;
+   border-radius: 10px;
+}
+
+.team{
+   font-size: 0;
+}
+
+.team__item {
+   display: inline-block;
+   width: 25%;
+   padding: 10px;
+}
+
+.team__item img {
+   border-radius: 8px;
+}
+
+.client{
+   margin-bottom: 20px;
+}
+
+.client img {
+   margin: 0 auto;
+}
+
+.news {
+   font-size: 0;
+}
+
+.news__item {
+   display: inline-block;
+   width: 30%;
+   margin-right: 3%;
+}
+
+.news__item img {
+   border-radius: 5px;
+}
+
+.design {
+   border-radius: 20px;
+   padding: 50px 0;
+   max-width: 1000px;
+   margin: 0 auto;
+   background: rgb(140,15,15);
+   background: linear-gradient(213deg, rgba(140,15,15,1) 0%, rgba(19,11,56,1) 32%, rgba(70,4,38,1) 78%);
+}
+
+.plans {
+   font-size: 0;
+   padding: 30px;
+   margin-bottom: 50px;
+}
+
+.plans__item {
+   display: inline-block;
+   width: calc(100% / 3);
+   height: 300px;
+   vertical-align: middle;
+   border-radius: 8px;
+}
+
+.plans__item:nth-child(odd) {
+   background-color: #fff;
+} 
+
+.plans__item:nth-child(1) {
+   background:  #fff url(../img/design/blue_part_of_circle.svg) 0 100% no-repeat;
+}
+
+.plans__item:nth-child(2) {
+   height: 400px;
+   background:url("../img/design/left_bottom_blue_wave.svg")  0 100% no-repeat, url("../img/design/right_top_blue_wave.svg") 100% 0 no-repeat,  #3056D3 ;
+} 
+
+.plans__item:nth-child(3) {
+   background:  #fff url(../img/design/green_part_of_circle.svg) 100% 0 no-repeat;
+}
+
+.clients {
+   margin-bottom: 50px;
+   height: 290px;
+   background: url("../img/design/small_dotted_shape.svg") 10px 10px no-repeat, url("../img/design/small_dotted_shape.svg") 940px 230px no-repeat,  #3056D3 ; 
+}
+
+.clients + div {
+   height: 200px;
+   background: url(../img/design/background_for_client.svg) 20px 20px no-repeat, url(../img/design/dotted_shape.svg) 420px 20px no-repeat, url(../img/design/two_parts_of_circle.svg) 820px 20px no-repeat, #5b75cc;
+}
+
+
