@@ -1,0 +1,133 @@
+@import url("reset.css");
+
+* {
+   transition: all 0.5s;
+}
+
+body {
+   background-image: url("../img/pattern.jpg")
+}
+
+.header {
+   text-align: center;
+   padding-top: 50px;
+}
+
+.header__button {
+   padding: 20px;
+   background-color: blue;
+   border: 2px black solid;
+   color: white;
+   font-size: 50px;
+   margin: 0 auto;
+}
+
+.page {
+   padding-top: 50px;
+
+}
+
+.page__examples {
+   margin-bottom: 50px;
+}
+
+.examples {
+
+   margin-bottom: 50px;
+}
+
+.example__wrapper {
+   display: inline-block;
+   width: 33%;
+   text-align: center;
+
+}
+
+.examples__item-background {
+   display: inline-block;
+   height: 200px;
+   width: 200px;
+   background-color: rgb(180, 81, 81);
+   perspective: 100px;
+   perspective-origin: 0 0;
+   transform-style: flat;
+}
+
+.example__item {
+   vertical-align: middle;
+   height: 100%;
+   width: 100%;
+   display: inline-block;
+   background-color: brown;
+   color: azure;
+   font-size: 20px;
+}
+
+.translate:hover {
+   transform: translate(20px, 50px);
+}
+
+.scale:hover {
+   transform: scale(3, 1.5);
+}
+
+.rotate:hover {
+   transform: rotate(10deg);
+}
+
+.skew:hover {
+   transform: skew(170deg);
+}
+
+.matrix:hover {
+   transform: matrix(1px, 2px, 3px, 4px, 5px, 6px);
+}
+
+.multi2d:hover {
+   transform: scale(0.9) rotate(360deg) translate(50%);
+}
+
+.transform-origin:hover {
+   transform-origin: top;
+   transform: skewX(20deg);
+}
+
+.perspective:hover {
+   transform: rotateX(45deg);
+}
+
+.translate3d:hover {
+   transform: translate3d(-20px, -20px, -50px);
+}
+
+.scale3d:hover {
+   transform: scale3d(2, 1, 5);
+}
+
+.rotate3d:hover {
+   transform: rotate3d(1, 1, 1, 40deg);
+}
+
+.matrix3d:hover {
+   transform: matrix3d(1, 2, 3, 4, 5);
+}
+
+.multi3d:hover {
+   transform: rotate3d(1, 1, 1, 40deg) scale3d(2, 1, 5) translate3d(-20px, -20px, -50px)
+}
+
+.transform-style-wrapper{
+   transform-style: preserve-3d;
+}
+
+.transform-style:hover {
+   transform: rotateX(45deg);
+}
+
+.backface-visibility {
+   backface-visibility: hidden;
+}
+
+.examples__item-background:hover .backface-visibility {
+   transform: rotateX(180deg);
+}
