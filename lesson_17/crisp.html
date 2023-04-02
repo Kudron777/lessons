@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style_crisp.css">
+   <title>Crisp form</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header></header>
+      <main class="page">
+         <div class="page__container">
+            <h2 class="page__header page__header_mb34">Shipping Address</h2>
+            <form class="page__form page__form_mb36 form-login" action="https://jsonplaceholder.typicode.com/posts"
+               method="post">
+               <div class="form-login__line line">
+                  <label class="line__label" for="mail">Email Address <span>*</span></label>
+                  <input autocomplete="off" required id="mail" class="line__input" name="mail" type="email"
+                     placeholder="roni_cost@example.com">
+               </div>
+               <div class="form-login__line line">
+                  <label class="line__label" for="password">Password</label>
+                  <input autocomplete="off" required id="password" class="line__input" name="password" type="password"
+                     placeholder="******************">
+               </div>
+               <div class="form-login__line line">
+                  <label class="line__label" for="postal_code">Zip/Postal Code</label>
+                  <input autocomplete="off" required id="postal_code" class="line__input" name="postal_code"
+                     type="text">
+               </div>
+               <p class="form-login__remainder">You already have an account with us. Sign in or continue as guest.</p>
+               <button class="form-login__button" type="submit">login</button>
+               <a href="#" class="form-login__forgot-password">Forgot Your Password?</a>
+            </form>
+            <form class="page__form guest-form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+               <div class="guest-form__line line">
+                  <label class="line__label" for="first_name">First Name <span>*</span></label>
+                  <input autocomplete="off" required id="first_name" class="line__input" name="first_name" type="text">
+               </div>
+               <div class="guest-form__line line">
+                  <label class="line__label" for="last_name">Last Name <span>*</span></label>
+                  <input autocomplete="off" required id="last_name" class="line__input" name="last_name" type="text">
+               </div>
+               <div class="guest-form__line line">
+                  <label class="line__label" for="company">Company</label>
+                  <input autocomplete="off" id="company" class="line__input" name="company" type="email">
+               </div>
+               <div class="guest-form__line line">
+                  <label class="line__label" for="address_1">Street Address <span>*</span></label>
+                  <input required autocomplete="off" id="address_1" class="line__input" name="address_1" type="text">
+               </div>
+               <div class="guest-form__line line">
+                  <label class="line__label" for="address_2"></label>
+                  <input autocomplete="off" id="address_2" class="line__input" name="address_2" type="text">
+               </div>
+               <div class="guest-form__line line">
+                  <label class="line__label" for="address_3"></label>
+                  <input autocomplete="off" id="address_3" class="line__input" name="address_3" type="text">
+               </div>
+               <div class="guest-form__line line">
+                  <label class="line__label" for="country">Country <span>*</span></label>
+                  <input autocomplete="off" id="country" class="line__input" name="country" type="text">
+               </div>
+               <div class="guest-form__line guest-form__line-select line">
+                  <label class="line__label" for="state">State/Province <span>*</span></label>
+                  <div class="select__wrapper">
+                     <select class="line__select" name="state" id="state">
+                        <option value>Please select a region, state or province</option>
+                        <option value="Arizona">Arizona</option>
+                        <option value="Arkansas">Arkansas</option>
+                        <option value="Colorado">Colorado</option>
+                        <option value="California">California</option>
+                        <option value="Michigan">Michigan</option>
+                     </select>
+                  </div>
+               </div>
+               <h2 class="page__header page__header_mb40">Shipping Methods</h2>
+               <div class="page__shipping-methods methods">
+                  <div class="methods__item method">
+                     <input required id="method_01" value="5dolars" name="method" class="method__radio" type="radio">
+                     <label for="method_01" class="method__price">$5.00</label>
+                     <div class="method__detailes">
+                        <div class="method__detaile">Fixed</div>
+                        <div class="method__detaile">Flat Rate</div>
+                     </div>
+                  </div>
+                  <div class="methods__item method">
+                     <input checked required id="method_02" value="10dolars" name="method" class="method__radio"
+                        type="radio">
+                     <label for="method_02" class="method__price">$10.00</label>
+                     <div class="method__detailes">
+                        <div class="method__detaile">Table Rate</div>
+                        <div class="method__detaile">Best Way</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="page__buttons">
+                  <button type="submit" class="page__submit">next</button>
+                  <button type="reset" class="page__reset">back</button>
+               </div>
+
+            </form>
+         </div>
+      </main>
+      <footer></footer>
+   </div>
+</body>
+
+</html>
